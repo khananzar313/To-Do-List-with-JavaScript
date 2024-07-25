@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navcontainer">
+        <div class="nav-logo"><img src="Todo3.png" alt="ToDo List"><span>To-Do List</span></div>
+        <span class="app">
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">Sign In</a>
+        </span>
+        
+    </div>  
+     <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="Todo2.png" alt=""></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Your Text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+
+     </div>
+     <script src="todo.js"></script>
+</body>
+</html> 
